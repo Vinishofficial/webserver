@@ -27,6 +27,8 @@ Serving the HTML pages.
 Testing the webserver
 
 ## PROGRAM:
+
+
 from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
 <html>
@@ -80,6 +82,8 @@ server_address = ('',8000)
 httpd = HTTPServer(server_address,myhandler)
 print("my webserver is running...")
 httpd.serve_forever()
+
+
 
 ## OUTPUT:
 ![image](https://github.com/Vinishofficial/webserver/assets/146931793/c61459ba-45e9-4d2b-9a0a-ba8295c0034d)
