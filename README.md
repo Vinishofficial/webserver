@@ -28,7 +28,6 @@ Testing the webserver
 
 ## PROGRAM:
 
-
 from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
 <html>
@@ -82,7 +81,6 @@ server_address = ('',8000)
 httpd = HTTPServer(server_address,myhandler)
 print("my webserver is running...")
 httpd.serve_forever()
-
 
 
 ## OUTPUT:
